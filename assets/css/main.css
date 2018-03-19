@@ -1,0 +1,318 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Montserrat',
+   sans-serif;
+   
+}
+
+.fixed{
+    margin:0;
+}
+
+header{
+    width:100%;
+    
+
+}
+
+.xs-menu{
+    width:100%;
+    background-color: #861F56;
+     text-align: center;
+     position:fixed;
+     z-index: 2;
+}
+
+.top{
+    margin-top: 0 !important;
+    z-index: 1;
+}
+
+.xs-menu ul li{
+    display: inline-block;
+   
+}
+
+.xs-menu ul li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 20px;
+    display: block;
+}
+
+.xs-menu ul li a:hover {
+    background-color: #4bceb4;
+    
+}
+
+
+.menu_bar{
+    display:none;
+}
+
+
+
+#content{
+    width: 100%;
+    height: auto;
+    padding:2em;
+    z-index: 1;
+}
+
+.indicator-item.active{
+    background-color: #861F56 !important;
+}
+
+.top{
+    margin-top: 4em;
+}
+
+hr {
+    border: 1.5px solid #4bceb4;
+    border-radius: 100px /4px;
+    height: 0px;
+    text-align: center;
+}
+
+
+
+#content img{
+    margin-top: 5em;
+    margin-left: 8em;
+}
+
+#content h3{
+    color: #861F56;
+}
+
+#center{
+    background-image: url("../images/cat-center.jpg");
+    width: 100%;
+    height: auto;
+    opacity:0.7;
+    background-position: center ;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 6em;
+    text-align: center;
+     z-index: 1;
+}
+
+#center hr {
+    width: 40%;
+    margin-left: 25em;
+    
+}
+
+#center p{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#center h3{
+    margin-top: 1em;
+}
+
+.services{
+    margin-top: 4em;
+}
+
+.services .col{
+    margin-bottom: 6em;
+}
+
+.services img {
+    border-radius: 5px;
+    width:200px;
+    height:180px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#medium {
+    background-color: rgb(247, 242, 245);
+    width: 100%;
+    height:auto;
+    padding-bottom: 2em;
+}
+
+#medium h3 {
+    margin-top: 1em;
+    color: #861F56;
+}
+
+#medium h5 {
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+#medium a {
+    margin-top: 2em;
+    margin-left: 23em;
+}
+
+#medium img {
+    margin-top: 3em;
+}
+
+.pars {
+    background-image: url("../images/dogPartners.jpg");
+    width: 100%;
+    height: auto;
+    opacity:0.7;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    
+}
+
+.pars h3 {
+    margin-top: 1em;
+}
+
+.pars hr {
+    width:40%;
+    margin-left: 25em;
+}
+
+.pars img {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.in-pars {
+    text-align: center;
+}
+
+.in-footer {
+    background-color: rgb(43, 43, 43);
+    width:100%;
+    height: auto;
+    text-align: center;
+    color:white;
+}
+
+.in-footer h5 {
+    margin-top: 5em;
+}
+
+.in-footer ul li{
+    display: inline-block;
+    font-size: 3em;
+    color: #4bceb4;
+    margin-left: 0.5em;
+}
+
+.in-footer2 i {
+    color: white;
+}
+
+.in-footer3 img{
+  margin-top: 8em;
+}
+
+.in-footer3 h6{
+    margin-top: 3em;
+    text-align: right;
+}
+
+svg{
+    margin-right: 0.4em !important;
+}
+
+/*Media-queries*/
+
+
+@media screen and (max-width: 761px){
+    .xs-menu {
+        width:80%;
+        height: 100%;
+        left: -100%;
+        margin:0;
+        position:fixed;
+        z-index: 3;
+    }
+
+    .xs-menu ul li{
+        display: block;
+        float:none;
+        border-bottom: 1px solid white;
+    }
+
+    .menu_bar{
+        display:block;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+        text-align: right;
+        
+    }
+
+    .menu_bar .bt-menu{
+        display: block;
+        padding: 20px;
+        background-color: #861F56;
+        color: #4bceb4;
+        font-weight: bold;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+
+    
+}
+
+@media (min-width: 320px) and (max-width: 641px) {
+
+.top h3{
+    font-size: 2em;
+}
+
+#medium a {
+    
+    margin-left: 4em;
+}
+
+#medium img{
+    margin-left: 1em;
+}
+
+#center hr, .pars hr{
+    margin-left: 7em;
+}
+
+#content img {
+   
+    margin-left: 0;
+}
+
+.in-footer2 p {
+    font-size: 0.7em;
+}
+
+.in-footer ul li{
+    font-size: 1.5em;
+}
+
+.in-footer h6{
+    display: block;
+    font-size: 0.6em;
+    text-align: left;
+
+}
+
+.in-footer h5, .in-footer2 h5{
+    margin-top: 2.5em;
+}
+
+
+.in-footer3 img, h6{
+     display:none;
+}
+
+
+
+}
