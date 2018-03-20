@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.slider').slider();  
 });
      
-        
+//Menu vista responsive        
 $(document).ready(main);
 
 let count = 1;
