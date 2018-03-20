@@ -1,3 +1,3 @@
 ## Centro Veterinario Victoria
 
-#### Proyecto maquetación pagina web Centro Veterinario, utilizando framework Materialize.
+#### Proyecto maquetación responsive, utilizando framework Materialize.
